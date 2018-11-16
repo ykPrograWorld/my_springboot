@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 //加上该注释，捕获controller层异常
-@ControllerAdvice
+//@ControllerAdvice
 public class ExceptionAop {
     /**
      * 捕获运行时异常

@@ -16,8 +16,8 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/getuser/#{id}")
-    public Object getUser(@Param("id") Integer id){
+    @RequestMapping("/getuser")
+    public Object getUser(Integer id){
         return userService.getUserById(id);
     }
 }

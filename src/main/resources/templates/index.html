@@ -7,5 +7,16 @@
 <body>
     <h1 th:text="${name}"></h1>
     <h1>welcome to my_springboot</h1>
+
+    <div>
+        <img src="/img/test.png">
+    </div>
+    <th>hello friend</th>
+    <table>
+        <th>测试List</th>
+        <tr th:each="l:${list}">
+            <td th:text="${l}"></td>
+        </tr>
+    </table>
 </body>
 </html>

@@ -43,6 +43,13 @@
     </dependency>
     <!--引入springboot依赖  end-->
 
+    <!--引入thymeleaf模板依赖 start-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+    <!--引入thymeleaf模板依赖 end-->
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

@@ -21,6 +21,7 @@ public class PageController {
         stringList.add("test1");
         stringList.add("test2");
         stringList.add("test3");
+        stringList.add("test4");
 
         model.addAttribute("list",stringList);
         return "index";
